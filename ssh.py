@@ -1,7 +1,7 @@
 import socket, threading, thread, select, signal, sys, time, getopt
 
 # CONFIG
-if sys.argv[2:]:
+if sys.argv[2]
   LISTENING_ADDR = sys.argv[2]
 else:
   LISTENING_ADDR = '0.0.0.0'  
