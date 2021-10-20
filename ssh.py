@@ -1,15 +1,9 @@
 import socket, threading, thread, select, signal, sys, time, getopt
 
 # CONFIG
-if sys.argv[2]
-  LISTENING_ADDR = sys.argv[2]
-else:
-  LISTENING_ADDR = '0.0.0.0'  
-  
-if sys.argv[1:]:
-  LISTENING_PORT = sys.argv[1]
-else:
-  LISTENING_PORT = 80  
+LISTENING_ADDR = sys.argv[2]
+LISTENING_PORT = sys.argv[1]
+ 
 
 PASS = ''
 
